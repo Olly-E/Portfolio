@@ -1,0 +1,32 @@
+.experience__container {
+    width: 100%;
+}
+
+.experience__container > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    width: 40%;
+    margin: auto;
+    transition: var(--transition);
+}
+.experience__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.experience__container > div h3 {
+    text-align: center;
+    color: var(--color-primary);
+}
+.experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+.experience__details {
+    display: flex;
+    gap: 1rem;
+}
