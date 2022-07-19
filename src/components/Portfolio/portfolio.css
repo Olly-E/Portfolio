@@ -17,6 +17,7 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    height: 60%;
 }
 .portfolio__item h3 {
    margin: 1.2rem 0 2rem; 
@@ -25,6 +26,9 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+#portfolio > div > article:nth-child(2) > div.portfolio__item-image > img{
+    height: 100%;
 }
 
 @media screen  and (max-width: 1024px){

@@ -40,10 +40,22 @@ header {
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem); /* center the image perfectly*/
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
+    /* border: 3px solid var(--color-primary); */
+}
+.Invisible {
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    /* padding: 0rem 1.5rem 1.5rem 1.5rem; */
+    left: calc(50% - 11rem);
+    
 }
 
 /* scroll down */

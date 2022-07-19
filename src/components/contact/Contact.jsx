@@ -14,6 +14,7 @@ const Contact = () => {
       "_Ykk3DhR2U2VEPvn2")
       e.target.reset();
   };
+  
   return (
     <section id="contact">
       <h5>Get in touch</h5>

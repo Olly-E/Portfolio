@@ -6,6 +6,7 @@ import IMG3 from '../../assets/portfolio3.jpg';
 import IMG4 from '../../assets/portfolio4.jpg';
 import IMG5 from '../../assets/portfolio5.png';
 import IMG6 from '../../assets/portfolio6.jpg';
+import beuaty_parlor from '../../assets/beuaty_parlor.jpg'
 
 const data = [
   {
@@ -17,10 +18,10 @@ const data = [
   },
   {
     id:2,
-    image: IMG2,
-    title: 'Charts template and infographics in figma',
-    github: 'http://github.com',
-    demo: '#'
+    image: beuaty_parlor,
+    title: 'Blossom beauty site for all beauty services',
+    github: 'https://github.com/Olly-E/Beauty-site',
+    demo: 'https://nuelbeautysite.netlify.app/'
   },
   {
     id:3,
