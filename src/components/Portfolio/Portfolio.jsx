@@ -12,9 +12,9 @@ const data = [
   {
     id:1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard and financial visualization',
-    github: 'http://github.com',
-    demo: '#'
+    title: 'Crypto fintech landing',
+    github: 'https://github.com/Olly-E/PaybuymaxTemp',
+    demo: 'http://www.paybuymax.com'
   },
   {
     id:2,
