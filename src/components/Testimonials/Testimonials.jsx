@@ -1,7 +1,7 @@
 import React from 'react';
 import './testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg';
-import AVTR2 from '../../assets/avatar2.jpg';
+import AVTR1 from '../../assets/avatar1.png';
+import AVTR2 from '../../assets/avatar2.png';
 import AVTR3 from '../../assets/avatar3.jpg';
 import AVTR4 from '../../assets/avatar4.jpg';
 
@@ -17,13 +17,13 @@ import 'swiper/css/pagination';
 const data = [
   {
   avatar: AVTR1,
-  name: 'Akinsiku Yinka',
-  review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita consequatur, iure dolores molestiae illum soluta quas nemo vitae dignissimos reprehenderit sunt ipsum. Quas possimus iure commodi omnis placeat expedita ducimus?"
+  name: 'Akinlola Anibi',
+  review: "Emmanuel has got to be the most relentless and hardworking Frontend develper I’ve ever worked with. He redesigned our website and worked on a variety of projects, and he consistently implements desings to absolute perfection with absolute efficient code, plus, he is always on time and meet deadlines. He’s also an absolute pleasure to work with — creative, intelligent, and incredibly productive."
 },
 {
   avatar: AVTR2,
-  name: 'Akinsiku Samuel',
-  review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita consequatur, iure dolores molestiae illum soluta quas nemo vitae dignissimos reprehenderit sunt ipsum. Quas possimus iure commodi omnis placeat expedita ducimus?"
+  name: 'Paybuymax',
+  review: "We worked with Emmanuel on implemnting the designs of our Fintech web app from scratch and we are delighted with the results. The the code and UI desings he wrote are top-notch, and the interactive system he integrated allows for straightforward fixes and bulk updates throughout almost every area of the app. we're looking forward to partner up with him on upcoming projects. Highly recommended!"
 },
 {
   avatar: AVTR3,

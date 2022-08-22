@@ -3,7 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg';
 import IMG2 from '../../assets/portfolio2.jpg';
 import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
+// import IMG4 from '../../assets/portfolio4.jpg';
 import IMG5 from '../../assets/portfolio5.png';
 import IMG6 from '../../assets/portfolio6.jpg';
 import beuaty_parlor from '../../assets/beuaty_parlor.jpg'
@@ -26,16 +26,16 @@ const data = [
   {
     id:3,
     image: IMG3,
-    title: 'Figma design UI kit for data design and web apps',
-    github: 'http://github.com',
-    demo: '#'
+    title: 'Paybuymax - Fintech and Crypto web app',
+    github: 'https://github.com/OFUZORCHUKWUEMEKE/paybuymaxV2',
+    demo: 'https://paybuymaxtesting.netlify.app/'
   },
   {
     id:4,
-    image: IMG4,
-    title: 'Maintaining tasks and tracking progress',
-    github: 'http://github.com',
-    demo: '#'
+    image: IMG2,
+    title: 'UI/UX designer online Portfolio',
+    github: 'https://github.com/Olly-E/Akinlola_portfolio',
+    demo: 'https://akinlolaportfolio.netlify.app/'
   },
   {
     id:5,

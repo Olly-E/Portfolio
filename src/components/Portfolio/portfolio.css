@@ -19,6 +19,14 @@
     overflow: hidden;
     height: 60%;
 }
+.portfolio__item-image img{
+    height: 100%;
+    transition: all 500ms ease-in-out;
+
+}
+.portfolio__item-image img:hover{
+    transform: scale(1.1)
+}
 .portfolio__item h3 {
    margin: 1.2rem 0 2rem; 
 }

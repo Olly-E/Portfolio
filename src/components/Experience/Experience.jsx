@@ -108,6 +108,30 @@ const Experience = () => {
               </div>
             </motion.article>
             <motion.article className='experience__details'
+                 variants={ExpTextBAnimation3}
+        initial="hidden"
+        whileInView="show"
+        viewport={{once: true}}
+              >
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+              <h4>TypeScript</h4>
+              <small className="text-light">Expericed</small>
+              </div>
+            </motion.article>
+            <motion.article className='experience__details'
+                 variants={ExpTextBAnimation3}
+        initial="hidden"
+        whileInView="show"
+        viewport={{once: true}}
+              >
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+              <h4>Next JS</h4>
+              <small className="text-light">Expericed</small>
+              </div>
+            </motion.article>
+            <motion.article className='experience__details'
                variants={ExpTextBAnimation4}
         initial="hidden"
         whileInView="show"

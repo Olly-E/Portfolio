@@ -17,6 +17,9 @@
     display: grid;
     place-items: center;
 }
+#root > div > header > div > div.Invisible > div > img {
+    height: 30rem;
+}
 
 .about__me-image {
     border-radius: 2rem;
