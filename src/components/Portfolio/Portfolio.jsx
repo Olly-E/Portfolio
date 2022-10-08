@@ -6,6 +6,7 @@ import IMG3 from '../../assets/portfolio3.jpg';
 // import IMG4 from '../../assets/portfolio4.jpg';
 import IMG5 from '../../assets/portfolio5.png';
 import IMG6 from '../../assets/portfolio6.jpg';
+import twitter_clone2 from '../../assets/twitter_clone2.png';
 import beuaty_parlor from '../../assets/beuaty_parlor.jpg'
 
 const data = [
@@ -40,16 +41,16 @@ const data = [
   {
     id:5,
     image: IMG5,
-    title: 'Charts template and infographics in figma',
-    github: 'http://github.com',
-    demo: '#'
+    title: 'Infographics',
+    github: 'https://github.com/Olly-E/Twitter-clone',
+    demo: ''
   },
   {
     id:6,
-    image: IMG6,
-    title: 'Charts template and infographics in figma',
-    github: 'http://github.com',
-    demo: '#'
+    image: twitter_clone2,
+    title: 'Twitter Clone',
+    github: 'https://github.com/Olly-E/Twitter-clone',
+    demo: 'https://twitter-clone-nuel.vercel.app/'
   }
 ]
 
