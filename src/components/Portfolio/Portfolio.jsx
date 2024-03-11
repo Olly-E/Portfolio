@@ -15,7 +15,7 @@ const data = [
     image: s4j,
     title: "Scout4Job",
     github: "https://github.com/Olly-E/PaybuymaxTemp",
-    demo: "http://www.paybuymax.com",
+    demo: "http://www.scout4job.com/",
   },
   {
     id: 2,
