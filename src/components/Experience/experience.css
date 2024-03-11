@@ -34,6 +34,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 2rem;
+    column-gap: 4rem;
 }
 .experience__details {
     display: flex;
@@ -42,6 +43,7 @@
 .experience__details-icon {
     margin-top: 6px;
     color: var(--color-primary);
+    min-width: 30px;
 }
 @media screen and (max-width: 1024px) {
     .experience__container {

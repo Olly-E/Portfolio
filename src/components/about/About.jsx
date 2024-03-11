@@ -46,7 +46,7 @@ const About = () => {
           >
             <FaAward className="about__icons" />
             <h5>Experience</h5>
-            <small>2+ Years Working</small>
+            <small>4+ Years Working</small>
           </motion.article>
           <motion.article className="about__card"
             variants={cardAnimation2}
@@ -66,7 +66,7 @@ const About = () => {
           >
             <VscFolderLibrary className="about__icons" />
             <h5>Projects</h5>
-            <small>20+ completed Projects</small>
+            <small>40+ completed Projects</small>
           </motion.article>
         </div>
         <motion.p

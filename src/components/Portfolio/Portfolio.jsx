@@ -1,58 +1,65 @@
 import React from 'react';
-import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg';
-import IMG2 from '../../assets/portfolio2.jpg';
+import './portfolio.css';
+import street_business from '../../assets/street_business.png';
 import IMG3 from '../../assets/portfolio3.jpg';
 // import IMG4 from '../../assets/portfolio4.jpg';
-import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.jpg';
-import twitter_clone2 from '../../assets/twitter_clone2.png';
+import rebrand from '../../assets/rebrand.png';
+import s4j from '../../assets/s4j.png'
+import street_demo from '../../assets/street_demo.png';
 import beuaty_parlor from '../../assets/beuaty_parlor.jpg'
+import neurms from '../../assets/neurms.png'
 
 const data = [
   {
-    id:1,
-    image: IMG1,
-    title: 'Crypto fintech landing',
-    github: 'https://github.com/Olly-E/PaybuymaxTemp',
-    demo: 'http://www.paybuymax.com'
+    id: 1,
+    image: s4j,
+    title: "Scout4Job",
+    github: "https://github.com/Olly-E/PaybuymaxTemp",
+    demo: "http://www.paybuymax.com",
   },
   {
-    id:2,
+    id: 2,
+    image: street_demo,
+    title: "Street Demo web",
+    github: "https://github.com/Olly-E/PaybuymaxTemp",
+    demo: "https://streetapp-market-git-homepage-fashmuyhee-gmailcom.vercel.app/",
+  },
+  {
+    id: 3,
     image: beuaty_parlor,
-    title: 'Blossom beauty site for all beauty services',
-    github: 'https://github.com/Olly-E/Beauty-site',
-    demo: 'https://nuelbeautysite.netlify.app/'
+    title: "Blossom beauty site for all beauty services",
+    github: "https://github.com/Olly-E/Beauty-site",
+    demo: "https://nuelbeautysite.netlify.app/",
   },
   {
-    id:3,
+    id: 4,
+    image: street_business,
+    title: "Street Business",
+    github: "https://github.com/Olly-E/Akinlola_portfolio",
+    demo: "https://street-business.vercel.app/",
+  },
+  {
+    id: 5,
+    image: rebrand,
+    title: "Rebrand",
+    github: "https://github.com/Olly-E/Twitter-clone",
+    demo: "https://rebrand-theta.vercel.app/",
+  },
+  {
+    id: 6,
     image: IMG3,
-    title: 'Paybuymax - Fintech and Crypto web app',
-    github: 'https://github.com/OFUZORCHUKWUEMEKE/paybuymaxV2',
-    demo: 'https://paybuymaxtesting.netlify.app/'
+    title: "Paybuymax - Fintech and Crypto web app",
+    github: "https://github.com/OFUZORCHUKWUEMEKE/paybuymaxV2",
+    demo: "https://paybuymaxtesting.netlify.app/",
   },
   {
-    id:4,
-    image: IMG2,
-    title: 'UI/UX designer online Portfolio',
-    github: 'https://github.com/Olly-E/Akinlola_portfolio',
-    demo: 'https://akinlolaportfolio.netlify.app/'
+    id: 6,
+    image: neurms,
+    title: "Neurms",
+    github: "https://github.com/OFUZORCHUKWUEMEKE/paybuymaxV2",
+    demo: "https://neurms.com/",
   },
-  {
-    id:5,
-    image: IMG5,
-    title: 'Infographics',
-    github: 'https://github.com/Olly-E/Twitter-clone',
-    demo: ''
-  },
-  {
-    id:6,
-    image: twitter_clone2,
-    title: 'Twitter Clone',
-    github: 'https://github.com/Olly-E/Twitter-clone',
-    demo: 'https://twitter-clone-nuel.vercel.app/'
-  }
-]
+];
 
 const Portfolio = () => {
   return (
