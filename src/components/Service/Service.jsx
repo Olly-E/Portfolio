@@ -43,7 +43,7 @@ const Service = () => {
               viewport={{once: true}}
             >
               <BsCheck2 className="service__list-icons"/>
-              <p>Building top-notch user interfaces for both web and app</p>
+              <p>Crafts Tailored Solutions: Adept at analyzing unique client challenges and delivering custom, high-performance web applications that meet exact needs.</p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation2}
@@ -52,7 +52,8 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Develop prototypes and performs hands-on coding to develop and integrate the application user interface.</p>
+              <p>Responsive Design: Creates seamless experiences across all devices.
+              </p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation3}
@@ -61,7 +62,8 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Translate graphic visual and interactive designs into interactive webapp and mobile</p>
+              <p>Robust Functionality: Combines sleek design with reliable performance.
+              </p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation4}
@@ -70,7 +72,8 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Troubleshooting issues and solving problems where needed.</p>
+              <p>Problem Solver: Excels at debugging and optimizing complex systems.
+              </p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation5}
@@ -79,7 +82,8 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Writing efficient JavaScript code while also using HTML and CSS.</p>
+              <p>Continuous Learner: Stays ahead with the latest tools and technologies.
+              </p>
             </motion.li>
             <motion.li
               variants={ExpTextBAnimation6}
@@ -88,7 +92,31 @@ const Service = () => {
               viewport={{once: true}}
             >
               <BsCheck2 className="service__list-icons"/>
-              <p>Knowledge of UX.</p>
+              <p>Collaborative: Works closely with teams to deliver on creative visions.
+              </p>
+            </motion.li>
+            <motion.li
+              variants={ExpTextBAnimation6}
+              initial="hidden"
+              whileInView="show"
+              viewport={{once: true}}
+            >
+              <BsCheck2 className="service__list-icons"/>
+              <p>Results-Driven: Aligns development with clear business goals.
+
+              </p>
+            </motion.li>
+            <motion.li
+              variants={ExpTextBAnimation6}
+              initial="hidden"
+              whileInView="show"
+              viewport={{once: true}}
+            >
+              <BsCheck2 className="service__list-icons"/>
+              <p>Purposeful Code: Transforms ideas into impactful digital solutions.
+
+
+              </p>
             </motion.li>
           </ul>
         </motion.article>
@@ -116,7 +144,8 @@ const Service = () => {
               viewport={{once: true}}
             >
               <BsCheck2 className="service__list-icons"/>
-              <p>Architect, build and maintain excellent React Native applications with clean code.</p>
+              <p>Intuitive Experiences: Crafts mobile apps with smooth, user-friendly interactions.
+              </p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation2}
@@ -125,7 +154,8 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Implement pixel perfect UI's that match designs specifications.</p>
+              <p>Performance-Driven: Optimizes apps for speed, stability, and battery efficiency.
+              </p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation3}
@@ -134,7 +164,8 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Implement clean, modern, smooth animations and transitions that provide an excellent user experience.</p>
+              <p>Platform Expertise: Delivers high-quality solutions for both iOS and Android.
+              </p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation4}
@@ -143,7 +174,8 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Integrate third-party API's.</p>
+              <p>Creative Problem Solver: Tackles unique challenges with innovative app features.
+              </p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation5}
@@ -152,7 +184,39 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Write unit and integration tests.</p>
+              <p>Future-Ready Development: Builds scalable apps that grow with user demands.
+              </p>
+            </motion.li>
+              <motion.li
+                variants={ExpTextBAnimation5}
+                initial="hidden"
+                whileInView="show"
+                viewport={{once: true}}
+              >
+              <BsCheck2 className="service__list-icons"/>
+              <p>Native-Like Design: Ensures apps feel seamless and natural on any platform.
+
+              </p>
+            </motion.li>
+              <motion.li
+                variants={ExpTextBAnimation5}
+                initial="hidden"
+                whileInView="show"
+                viewport={{once: true}}
+              >
+              <BsCheck2 className="service__list-icons"/>
+              <p>Continuous Innovation: Integrates the latest trends and technologies in mobile.
+              </p>
+            </motion.li>
+              <motion.li
+                variants={ExpTextBAnimation5}
+                initial="hidden"
+                whileInView="show"
+                viewport={{once: true}}
+              >
+              <BsCheck2 className="service__list-icons"/>
+              <p>User-Centric Approach: Focuses on delivering value and delight to end users.
+              </p>
             </motion.li>
           </ul>
         </motion.article>

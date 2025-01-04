@@ -16,7 +16,7 @@ const Contact = () => {
   };
   
   return (
-    <section id="contact">
+    <section id="contact" style={{marginTop:'0px' ,paddingTop: '100px'}}>
       <h5>Get in touch</h5>
       <h2>Contact Me</h2>
       <div className="container contact__container">
@@ -25,19 +25,19 @@ const Contact = () => {
             <MdOutlineMail className="contact__option-icon"/>
             <h4>Email</h4>
             <h5>akinsnuel@gmail.com</h5>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=akinsnuel@gmail.com" target="_blank">Send a message</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=akinsnuel@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className="contact__option-icon"/>
             <h4>Messenger</h4>
             <h5>Akinsiku Emmanuel</h5>
-            <a href="https://m.me/nuel.akins" target="_blank">Send a message</a>
+            <a href="https://m.me/nuel.akins" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon"/>
             <h4>WhatsApp</h4>
             <h5>+2348133946674</h5>
-            <a href="https://api.whatsapp.com/send?phone=+2348133946674" target="_blank">Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=+2348133946674" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         {/* End of contact options */}

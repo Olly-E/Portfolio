@@ -46,7 +46,7 @@ const About = () => {
           >
             <FaAward className="about__icons" />
             <h5>Experience</h5>
-            <small>4+ Years Working</small>
+            <small>5+ Years Working</small>
           </motion.article>
           <motion.article className="about__card"
             variants={cardAnimation2}
@@ -56,7 +56,7 @@ const About = () => {
           >
             <FiUsers className="about__icons" />
             <h5>Clients</h5>
-            <small>30+ Nationwide</small>
+            <small>40+ Nationwide</small>
           </motion.article>
           <motion.article className="about__card"
             variants={cardAnimation3}
@@ -66,7 +66,7 @@ const About = () => {
           >
             <VscFolderLibrary className="about__icons" />
             <h5>Projects</h5>
-            <small>40+ completed Projects</small>
+            <small>45+ completed Projects</small>
           </motion.article>
         </div>
         <motion.p
@@ -75,8 +75,7 @@ const About = () => {
           whileInView="show"
           viewport={{once: true}}
         >
-        Individual with love for designs and unique challenges, imbued overtime with problem solving skills. A full time front end and mobile app engineer with ability to build responsive websites and web apps for buisness of varying sizes, with eye catching UI designs and complete web functionality that makes them stand out from the ordinary.
-        </motion.p>
+Driven by a genuine passion for design and a knack for solving complex problems, I am a front-end and mobile app engineer dedicated to bringing ideas to life. Over the years, I've specialized in building responsive websites and web applications for businesses of all sizes. I focus on crafting eye-catching user interfaces combined with seamless functionality to create digital experiences that truly engage users. By tackling unique challenges, I strive to deliver solutions that help businesses stand out in a competitive market.        </motion.p>
 
         <motion.a href="#contact" className='btn btn-primary'
           variants={cardTextBAnimation}

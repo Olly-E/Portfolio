@@ -8,6 +8,7 @@ import s4j from '../../assets/s4j.png'
 import street_demo from '../../assets/street_demo.png';
 import beuaty_parlor from '../../assets/beuaty_parlor.jpg'
 import neurms from '../../assets/neurms.png'
+import rebootmonkey from '../../assets/rebootmonkey.png'
 
 const data = [
   {
@@ -53,12 +54,19 @@ const data = [
     demo: "https://paybuymaxtesting.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     image: neurms,
     title: "Neurms",
     github: "https://github.com/OFUZORCHUKWUEMEKE/paybuymaxV2",
     demo: "https://neurms.com/",
   },
+  {
+    id: 8,
+    image: rebootmonkey,
+    title: "Reboot Monkey",
+    github: "",
+    demo: "https://rebootmonkey.com/",
+  }
 ];
 
 const Portfolio = () => {
