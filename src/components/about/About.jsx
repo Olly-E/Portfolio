@@ -46,7 +46,7 @@ const About = () => {
           >
             <FaAward className="about__icons" />
             <h5>Experience</h5>
-            <small>5+ Years Working</small>
+            <small>6+ Years Working</small>
           </motion.article>
           <motion.article className="about__card"
             variants={cardAnimation2}
@@ -56,7 +56,7 @@ const About = () => {
           >
             <FiUsers className="about__icons" />
             <h5>Clients</h5>
-            <small>40+ Nationwide</small>
+            <small>60+ Nationwide</small>
           </motion.article>
           <motion.article className="about__card"
             variants={cardAnimation3}
@@ -75,7 +75,7 @@ const About = () => {
           whileInView="show"
           viewport={{once: true}}
         >
-Driven by a genuine passion for design and a knack for solving complex problems, I am a front-end and mobile app engineer dedicated to bringing ideas to life. Over the years, I've specialized in building responsive websites and web applications for businesses of all sizes. I focus on crafting eye-catching user interfaces combined with seamless functionality to create digital experiences that truly engage users. By tackling unique challenges, I strive to deliver solutions that help businesses stand out in a competitive market.        </motion.p>
+Fueled by creativity and driven by innovation, I’m a Front-End & Mobile Engineer who transforms bold ideas into stunning, high-performing digital products. With deep expertise in AI-powered applications and modern web solutions, I design and build experiences that are as intuitive as they are impactful. My craft lies in blending sleek, user-focused interfaces with seamless functionality—helping businesses not only thrive online but stand out in today’s competitive digital landscape.  </motion.p>
 
         <motion.a href="#contact" className='btn btn-primary'
           variants={cardTextBAnimation}

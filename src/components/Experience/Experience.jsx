@@ -227,19 +227,6 @@ const Experience = () => {
             >
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Photoshop</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </motion.article>
-            <motion.article
-              className="experience__details"
-              variants={ExpTextBAnimation6}
-              initial="hidden"
-              whileInView="show"
-              viewport={{ once: true }}
-            >
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
                 <h4>Node Js</h4>
                 <small className="text-light">Intermediate</small>
               </div>
