@@ -18,7 +18,7 @@ const data = [
     image: rebootmonkey,
     title: "Reboot Monkey",
     github: "",
-    demo: "https://rebootmonkey.com/",
+    demo: "https://www.rebootmonkey.com/",
     description:
           "Reboot Monkey is the official website for a global data center company. It was built to improve their SEO, digital presence, and online credibility. The platform includes content management tools for blogs and location-based services.",
   },
