@@ -11,8 +11,18 @@ import neurms from '../../assets/neurms.png'
 import rebootmonkey from '../../assets/rebootmonkey.png'
 import gamified from '../../assets/gamified.png'
 import nutrition4gainz from '../../assets/nutrition4gainz.png'
+import popin from '../../assets/popin.png'
 
 const data = [
+  {
+    id: 80,
+    image: popin,
+    title: "Popin",
+    github: "",
+    demo: "https://popin-tau.vercel.app/",
+    description:
+          "POPINS is a sophisticated lifestyle platform unifying complex services—from premium short-term stays to fleet management and event logistics—into a single, elegant UI. Built with Next.js and React, this project showcases the architecture required to deliver a polished, high-performance experience across vastly different user workflows.",
+  },
   {
     id: 8,
     image: rebootmonkey,
@@ -45,7 +55,7 @@ const data = [
     image: nutrition4gainz,
     title: "Nutrition4gainz",
     github: "",
-    demo: "https://nutrition4gainz.com/",
+    demo: "https://nutrition4gainz-frontend.vercel.app/",
     description:
     "",
   },
